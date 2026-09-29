@@ -1,0 +1,21 @@
+name: pi_workspace
+publish_to: none
+environment:
+  sdk: ^3.12.2
+workspace:
+  - packages/pi_core
+  - packages/pi_runtime
+  - packages/pi_data
+  - packages/pi_reminder
+  - packages/pi_ai
+  - packages/pi_ui
+  - plugins/todo
+  - plugins/birthday
+  - plugins/reminder
+  - plugins/habits
+  - apps/pi
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.4.2+1

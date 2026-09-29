@@ -1,0 +1,9 @@
+name: pi_reminder
+description: Composable local-first Pi capability
+version: 0.1.0
+publish_to: none
+resolution: workspace
+environment:
+  sdk: ^3.12.2
+dependencies:
+  pi_core: any

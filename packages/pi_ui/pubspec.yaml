@@ -1,0 +1,12 @@
+name: pi_ui
+description: Composable local-first Pi capability.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+environment:
+  sdk: ^3.12.2
+dependencies:
+  flutter:
+    sdk: flutter
+  pi_runtime: any
+  pi_core: any
