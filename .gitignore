@@ -7,3 +7,22 @@
 *.iml
 .idea/
 coverage/
+
+# Local-only developer and device configuration.
+.pi-local.env
+.env
+.env.*
+!.env.example
+
+# Local captures and generated workspace artifacts.
+tmp/
+**/xcuserdata/
+*.xcuserstate
+
+# Signing credentials and provisioning artifacts must never be committed.
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.pem
+*.key

@@ -1,4 +1,0 @@
-import 'package:flutter/material.dart'; import 'package:pi_core/pi_core.dart'; import 'package:pi_runtime/pi_runtime.dart'; import 'package:pi_ui/pi_ui.dart';
-const reminderManifest=PluginManifest(id:'dev.pi.reminder',name:'提醒',description:'让重要的事在合适的时间回来找你。',icon:'notifications',colorValue:0xFFF5B95B,permissions:{Permission.notifications});
-class ReminderPlugin implements PiPlugin { PluginManifest get manifest=>reminderManifest; Future<void> register(PluginContext c) async { final r=_R(c); registerCollection(c,r,icon:Icons.notifications_active_rounded,fields:const [EntryField('title','提醒什么？',required:true),EntryField('date','时间',date:true,required:true)],empty:'还没有提醒。',order:50); } Future<void> start(PluginContext c) async{} Future<void> stop(PluginContext c) async{} }
-class _R extends EntryRepository{_R(PluginContext c):super(c,'reminder');}

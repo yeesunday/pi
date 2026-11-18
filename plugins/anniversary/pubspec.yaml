@@ -1,4 +1,4 @@
-name: pi_plugin_birthday
+name: pi_plugin_anniversary
 description: Composable local-first Pi capability.
 version: 0.1.0
 publish_to: none
@@ -8,6 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  lunar: ^1.7.8
   pi_core: any
   pi_runtime: any
   pi_ui: any

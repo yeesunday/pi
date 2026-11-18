@@ -6,4 +6,6 @@ resolution: workspace
 environment:
   sdk: ^3.12.2
 dependencies:
+  flutter:
+    sdk: flutter
   pi_core: any

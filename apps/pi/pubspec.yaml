@@ -8,6 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_secure_storage: ^11.2.0
   pi_core: any
   pi_runtime: any
   pi_data: any
@@ -15,8 +16,7 @@ dependencies:
   pi_ai: any
   pi_ui: any
   pi_plugin_todo: any
-  pi_plugin_birthday: any
-  pi_plugin_reminder: any
+  pi_plugin_anniversary: any
   pi_plugin_habits: any
 dev_dependencies:
   flutter_test:

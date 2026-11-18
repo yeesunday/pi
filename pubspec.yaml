@@ -10,8 +10,7 @@ workspace:
   - packages/pi_ai
   - packages/pi_ui
   - plugins/todo
-  - plugins/birthday
-  - plugins/reminder
+  - plugins/anniversary
   - plugins/habits
   - apps/pi
 dev_dependencies:
