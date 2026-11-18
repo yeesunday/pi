@@ -12,6 +12,7 @@ workspace:
   - plugins/todo
   - plugins/anniversary
   - plugins/habits
+  - plugins/sketch
   - apps/pi
 dev_dependencies:
   flutter_test:

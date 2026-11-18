@@ -6,5 +6,6 @@ IconData pluginIcon(String name) => switch (name) {
   'edit_note' => Icons.edit_note_rounded,
   'notifications' => Icons.notifications_active_rounded,
   'repeat' => Icons.repeat_rounded,
+  'draw' => Icons.draw_rounded,
   _ => Icons.extension_rounded,
 };

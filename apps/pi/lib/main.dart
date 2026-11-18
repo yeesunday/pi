@@ -5,6 +5,7 @@ import 'package:pi_ai/pi_ai.dart';
 import 'package:pi_data/pi_data.dart';
 import 'package:pi_plugin_anniversary/anniversary.dart';
 import 'package:pi_plugin_habits/habits.dart';
+import 'package:pi_plugin_sketch/sketch.dart';
 import 'package:pi_plugin_todo/todo.dart';
 import 'package:pi_reminder/pi_reminder.dart';
 import 'package:pi_runtime/pi_runtime.dart';
@@ -22,6 +23,7 @@ const _supportedSchemas = <String, int>{
   'dev.pi.todo/todo_category': 1,
   'dev.pi.anniversary/anniversary': 1,
   'dev.pi.habits/habit': 1,
+  'dev.pi.sketch/drawing': 1,
 };
 
 Future<void> main() async {
@@ -41,6 +43,7 @@ Future<void> main() async {
         create: AnniversaryPlugin.new,
       ),
       PluginDescriptor(manifest: habitsManifest, create: HabitsPlugin.new),
+      PluginDescriptor(manifest: sketchManifest, create: SketchPlugin.new),
     ]),
   );
   for (final plugin in runtime.availablePlugins) {

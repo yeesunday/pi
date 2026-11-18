@@ -1,0 +1,14 @@
+name: pi_plugin_sketch
+description: A freehand sketchpad for Pi.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+environment:
+  sdk: ^3.12.2
+dependencies:
+  flutter:
+    sdk: flutter
+  pi_core: any
+  pi_runtime: any
+  pi_ui: any
+  share_plus: ^13.0.0

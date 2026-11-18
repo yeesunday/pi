@@ -18,6 +18,7 @@ dependencies:
   pi_plugin_todo: any
   pi_plugin_anniversary: any
   pi_plugin_habits: any
+  pi_plugin_sketch: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

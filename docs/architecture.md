@@ -24,7 +24,9 @@ not a roadmap.
 | `pi_ui` | Shared Flutter presentation only |
 | `apps/pi` | Composition root, iOS bridges, settings, sync policy |
 
-The domain plugins are `dev.pi.todo`, `dev.pi.anniversary`, and `dev.pi.habits`.
+The domain plugins are `dev.pi.todo`, `dev.pi.anniversary`, `dev.pi.habits`,
+and `dev.pi.sketch`. Sketches store editable strokes in `drawing` entities.
+The system share sheet receives a rendered PNG.
 
 ## Startup
 
